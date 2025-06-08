@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+::selection{
+    background-color: rgb(248, 158, 148);
+    color: #fff;
+}
+
+/* body{
+    background: white;
+    animation: bgchange 10s ease-in infinite;
+}
+
+@keyframes bgchange{
+   0%{
+    background-color: rgba(248, 166, 226, 0.91);
+   }
+   25%{
+    background-color: rgba(145, 216, 247, 0.91);
+   }
+   50%{
+    background-color: rgba(145, 247, 193, 0.91);
+   }
+   75%{
+    background-color: rgba(247, 242, 145, 0.91);
+   }
+   100%{
+    background-color: rgba(247, 208, 145, 0.91);
+   }
+} */
+
+nav{
+    background-color: #c6c2c2;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(194, 194, 194, 0.949), rgba(161, 158, 158, 0.916), rgba(62, 61, 61, 0.897)), url("../assets/heroimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 60px 60px;
+}
+
+.hero-icon {
+    font-size: 50px;
+    color: peru;
+}
+
+.mybtn {
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid rgb(225, 225, 225);
+    padding: 15px 25px;
+    color: #d8d3d3;
+}
+
+.mybtnclr {
+    background-color: peru;
+}
+
+.myborder {
+    width: 50%;
+    height: 2px;
+    background-color: peru;
+    margin: 15px auto;
+}
+
+#services, .pricing , .features{
+    padding: 25px 0;
+    background: rgb(215, 215, 215);
+    margin-top: 10px;
+    border-radius: 60px;
+    transition: all 30s ease;
+}
+
+#services img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+#services>div div {
+    padding: 30px 15px;
+    border-radius: 15px;
+}
+
+#services button {
+    padding: 12px 15px;
+    background: rgb(235, 234, 234);
+    border: none;
+}
+
+.features-box {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.features-box:hover {
+    background-color: #c6c2c2;
+}
+
+.features-box i {
+    font-size: 50px;
+    color: #fff;
+    transition: all 1s ease;
+}
+
+.features-box div {
+    background-color: peru;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-box:hover i {
+    color: rgb(21, 21, 21);
+    transition: all 1s ease;
+}
+
+.pricing-btn{
+    background-color: rgb(240, 186, 132);
+}
+
+.CUSTOMERS{
+    width: 100%;
+    padding: 50px 10px;
+    margin: 15px 0;
+    background:linear-gradient(rgba(225, 224, 224, 0.93),rgba(239, 237, 237, 0.902)) ,url("../assets/heroimg.jpg");
+}
+
+footer{
+    padding: 30px 0 50px 0;
+}
+.foot-icon{
+    font-size: 30px;
+    background: rgb(218, 141, 63);
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+/* button top code ----------------------------------------------------  */
+.topbtn {
+    display: none;
+    cursor: pointer;
+    position: fixed; 
+    bottom: 40px;
+    right: 20px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:peru;
+    border: none;
+  }
+  
+  .topbtn i{
+    font-size: 1.5vw;
+    color: #ffffff;
+  }
